@@ -31,6 +31,7 @@ const HeadingComponent = () => (
   <div id="container">
     <Title />
     <Subtitle/>
+    {Title()}
     {jsvariable}
     <h1>{count}</h1>
     <h1>Namaste React using Functional Component 🚀</h1>;
